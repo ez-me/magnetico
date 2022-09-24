@@ -6,7 +6,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/boramalper/magnetico/cmd/magneticod/dht/mainline"
+	"github.com/ez-me/magnetico/cmd/magneticod/dht/mainline"
 )
 
 type Service interface {
