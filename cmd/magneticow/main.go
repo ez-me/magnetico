@@ -27,7 +27,7 @@ import (
 	"go.uber.org/zap/zapcore"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/boramalper/magnetico/pkg/persistence"
+	"github.com/ez-me/magnetico/pkg/persistence"
 )
 
 var compiledOn string

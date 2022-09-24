@@ -3,8 +3,8 @@
 all: prepare magneticod magneticow
 
 prepare:
-	printf "Downloading required Modules"
-	go get github.com/ez-me/magnetico
+	printf "Downloading required Modules\n"
+	go mod download github.com/ez-me/magnetico
 	go get github.com/ez-me/magnetico/cmd/magneticod
 	go get github.com/ez-me/magnetico/cmd/magneticow
 

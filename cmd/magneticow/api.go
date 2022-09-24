@@ -19,7 +19,7 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/text/encoding/charmap"
 
-	"github.com/boramalper/magnetico/pkg/persistence"
+	"github.com/ez-me/magnetico/pkg/persistence"
 )
 
 type ApiReadmeHandler struct {
