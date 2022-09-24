@@ -9,12 +9,8 @@ developed by the community if you need something more advanced or different.
 
 ## Installation
 ### Installing the Pre-Compiled Static Binary
-You can find the latest pre-compiled static binaries on [GitHub](https://github.com/boramalper/magnetico/releases)
-for versions from v0.7.0 onwards. 
-
-### Installing the Docker Image
-Docker images are provided on [Docker Hub](https://hub.docker.com/u/boramalper) at
-the repositories `boramalper/magneticod` and `boramalper/magneticow`.
+You can find the latest pre-compiled static binaries on [GitHub](https://github.com/ez-me/magnetico/releases)
+for versions from v0.12.0 onwards. 
 
 ## Setup
 ### Configuration
@@ -32,9 +28,6 @@ in file
 
       ~/.config/magneticow/credentials
 
-- **On macOS (OS X):**
-
-      TODO PATH HERE
       
 `credentials` file must consist of lines of the following format
 
@@ -71,23 +64,6 @@ USERNAME:$2y$12$YE01LZ8jrbQbx6c0s2hdZO71dSjn2p/O9XsYJpz.5968yCysUgiaG
    case.
 
 ## Usage
-### Using the Docker Image
-You need to mount
-
-- the data directory (`~/.local/share/magneticod/` on Linux, see [magneticod's Manual](../magneticod/README.md))
-- the configuration file at (`~/.config/magneticow/configuration.toml` on Linux, see the previous sections)
-
-hence run:
-
-  ```bash
-  docker run -it --rm \
-    -v ~/.local/share/magneticod:/root/.local/share/magneticod/ \
-    -v ~/.config/magneticow/configuration.toml:/root/.config/magneticow/configuration.toml \
-    boramalper/magneticow
-  ```
-  
-Using Docker, the default username & password is `magnetico` and `magnetico`.
-
 ### Searching
 * Only the **titles** of the torrents are being searched.
 * Search is case-insensitive.
