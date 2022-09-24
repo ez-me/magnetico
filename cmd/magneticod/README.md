@@ -15,12 +15,8 @@ fetches metadata from the peers.
   **magneticod** should just work fine.
 
 ### Installing the Pre-Compiled Static Binary
-You can find the latest pre-compiled static binaries on [GitHub](https://github.com/boramalper/magnetico/releases)
-for versions from v0.7.0 onwards. 
-
-### Installing the Docker Image
-Docker images are provided on [Docker Hub](https://hub.docker.com/r/boramalper/magnetico/tags/) at
-the repository `boramalper/magnetico`. Images are tagged as `d-vMAJOR.MINOR.PATCH`.
+You can find the latest pre-compiled static binaries on [GitHub](https://github.com/ez-me/magnetico/releases)
+for versions from v0.12.0 onwards. 
 
 ## Setup
 1. (Optional, **requires root**) Disable iptables for a specified port:
@@ -52,21 +48,6 @@ files while it is operating, but ``database.sqlite3`` is *the database*.
 #### More engines (PostgreSQL and others)
 
 You can read about other supported persistence engines [here](pkg/README.md).
-
-### Using the Docker Image
-You need to mount
-
-- the data directory (`~/.local/share/magneticod/` on Linux, see the previous sections)
-- the configuration file at (`~/.config/magneticod/configuration.toml` on Linux, see the previous sections)
-
-hence run:
-
-  ```bash
-  docker run -it --rm \
-    -v ~/.local/share/magneticod:/root/.local/share/magneticod/ \
-    -v ~/.config/magneticod/configuration.toml:/root/.config/magneticod/configuration.toml \
-    boramalper/magneticod
-  ```
   
 ### Remark About the Network Usage
 **magneticod** does *not* have any built-in rate limiter *yet*, and it will literally suck the hell out of your
