@@ -1,13 +1,11 @@
 # Fork Reason
 
-I wanted to have newer binaries, alongside arm (well, Termux ones).
+I wanted to have newer binaries, alongside arm (well, namely Termux). Remove Docker and CI/Travis/Unneded files for this small fork.
 
-Also to learn a bit of Go.
+Also to learn a bit of Go (maybe).
 
 # magnetico
 *Autonomous (self-hosted) BitTorrent DHT search engine suite.*
-
-[![Go](https://github.com/ez-me/magnetico/workflows/Go/badge.svg)](https://github.com/ez-me/magnetico/actions)
 
 magnetico is the first autonomous (self-hosted) BitTorrent DHT search engine suite that is *designed
 for end-users*. The suite consists of two packages:
@@ -38,14 +36,6 @@ central entity*.
 - Built-in lightweight web interface:
   - **magneticow** features a lightweight web interface to help you access the database without
     getting on your way.
-
-### Screenshots
-*Click on the images to view full-screen.*
-
-<!-- Use https://www.tablesgenerator.com/markdown_tables -->
-| ![The Homepage](https://camo.githubusercontent.com/488606a87a3e1d7238c0539c6b9cf8429e2c8f16/68747470733a2f2f696d6775722e636f6d2f3634794433714e2e706e67) | ![Searching for torrents](https://camo.githubusercontent.com/0b6def355a17b944de163a11f77c17c1c622280c/68747470733a2f2f696d6775722e636f6d2f34786a733335382e706e67) | ![ss](https://camo.githubusercontent.com/0bd679ad8bbf038b50c082d80a8e0e37516c813e/68747470733a2f2f696d6775722e636f6d2f6c3354685065692e706e67) |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|
-|                                                                     __The Homepage__                                                                    |                                                                     __Searching for torrents__                                                                    |                                                     __Viewing the metadata of a torrent__                                                     |
 
 ## Why?
 BitTorrent, being a distributed P2P file sharing protocol, has long suffered because of the
@@ -81,22 +71,9 @@ You should access magneticow at <http://localhost:8080>.
 All the code is licensed under AGPLv3, unless stated otherwise specifically. See `COPYING` for
 details.
 
-## Donations
-### Patreon
-https://www.patreon.com/boramalper
-
-### PayPal
-https://paypal.me/boramalper
-
-### Cryptocurrencies (Coinbase)
-- **BTC:** `3BLWjamWug3QQzcDDGwYLwuCqJyjcfYJB8`
-- **LTC:** `MRWX5SGCF7EvN15gpzT5b3KQD3Z91gH8qi`
-- **BCH:** `qqn07a58hax9l8pckq9j8ys6dsh2cnu4rsyztw2kj9`
-- **ETH:** `0xe5A8e80bAA6129DF7eBB1B5302F9e2Ef4C6f6E62`
-- **ETC:** `0x8964EcC86eaf043Bff2CdfE875E73D8095c26a58`
 
 ----
 
-Dedicated to Cemile Binay, in whose hands I thrived.
+Dedicated to Cemile Binay, in whose hands [Bora] thrived.
 
-Bora M. ALPER <bora@boramalper.org>
+Bora M. ALPER <bora at boramalper dot org>
