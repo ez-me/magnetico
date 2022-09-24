@@ -1,33 +1,33 @@
 module github.com/ez-me/magnetico
 
-go 1.15
+go 1.19
 
 require (
-	github.com/Wessie/appdirs
-	github.com/anacrolix/dht // indirect
-	github.com/anacrolix/missinggo
-	github.com/anacrolix/missinggo/v2 // indirect
-	github.com/anacrolix/torrent
-	github.com/chzyer/readline // indirect
-	github.com/dustin/go-humanize
-	github.com/google/pprof // indirect
-	github.com/gorilla/mux
-	github.com/gorilla/schema
-	github.com/iwanbk/gobeanstalk
-	github.com/jackc/pgx/v4
-	github.com/jessevdk/go-flags
-	github.com/kevinburke/go-bindata // indirect
-	github.com/libp2p/go-sockaddr
-	github.com/mattn/go-sqlite3
-	github.com/pkg/errors
-	github.com/pkg/profile
-	github.com/willf/bloom
-	go.uber.org/zap
-	golang.org/x/crypto
-	golang.org/x/lint // indirect
-	golang.org/x/net // indirect
-	golang.org/x/sys
-	golang.org/x/text
-	golang.org/x/tools // indirect
-	honnef.co/go/tools // indirect
+	github.com/Wessie/appdirs latest
+	github.com/anacrolix/dht latest // indirect
+	github.com/anacrolix/missinggo latest
+	github.com/anacrolix/missinggo/v2 latest // indirect
+	github.com/anacrolix/torrent latest
+	github.com/chzyer/readline latest // indirect
+	github.com/dustin/go-humanize latest
+	github.com/google/pprof latest // indirect
+	github.com/gorilla/mux latest
+	github.com/gorilla/schema latest
+	github.com/iwanbk/gobeanstalk latest
+	github.com/jackc/pgx/v4 latest
+	github.com/jessevdk/go-flags latest
+	github.com/kevinburke/go-bindata latest // indirect
+	github.com/libp2p/go-sockaddr latest
+	github.com/mattn/go-sqlite3 latest
+	github.com/pkg/errors latest
+	github.com/pkg/profile latest
+	github.com/willf/bloom latest
+	go.uber.org/zap latest
+	golang.org/x/crypto latest
+	golang.org/x/lint latest // indirect
+	golang.org/x/net latest // indirect
+	golang.org/x/sys latest
+	golang.org/x/text latest
+	golang.org/x/tools latest // indirect
+	honnef.co/go/tools latest // indirect
 )
