@@ -28,7 +28,7 @@
 	background-image: none;
 }
 
-.vtree li.vtree-leaf.closed ul.vtree-subtree {	
+.vtree li.vtree-leaf.closed ul.vtree-subtree {
 	display: none;
 }
 
