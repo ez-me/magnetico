@@ -56,9 +56,10 @@ func main() {
 		return
 	}
 
-	zap.L().Info("magneticod v0.12.0 has been started.")
+	zap.L().Info("magneticod v0.12.2 has been started.")
 	zap.L().Info("Copyright (C) 2017-2020  Mert Bora ALPER <bora@boramalper.org>.")
-	zap.L().Info("Dedicated to Cemile Binay, in whose hands I thrived.")
+        zap.L().Info("2022-2022 Esteban Zapata")
+        zap.L().Info("Dedicated to Cemile Binay, in whose hands [bora] thrived.")
 	zap.S().Infof("Compiled on %s", compiledOn)
 
 	switch opFlags.Verbosity {
