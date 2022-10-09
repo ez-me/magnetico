@@ -10,8 +10,8 @@ Also to learn a bit of Go (maybe).
 magnetico is the first autonomous (self-hosted) BitTorrent DHT search engine suite that is *designed
 for end-users*. The suite consists of two packages:
 
-- **magneticod:** Autonomous BitTorrent DHT crawler and metadata fetcher.
-- **magneticow:** Lightweight web interface for magnetico.
+- <code>magneticod</code>: Autonomous BitTorrent DHT crawler and metadata fetcher.
+- <code>magneticow</code>: Lightweight web interface for magnetico.
 
 Both programs, combined together, allows anyone with a decent Internet connection to access the vast
 amount of torrents waiting to be discovered within the BitTorrent DHT space, *without relying on any
@@ -25,16 +25,16 @@ central entity*.
   - [Pre-compiled static binaries](https://github.com/ez-me/magnetico/releases) are provided.
   - Root access is *not* required to install or to use.
 - Near-zero configuration:
-  - Both programs work out of the box, and **magneticow** can be used without a web-server too.
+  - Both programs work out of the box, and <code>magneticow</code> can be used without a web-server too.
   - Detailed, step-by-step manual to guide you through the installation.
 - No reliance on any centralised entity:
-  - **magneticod** trawls the BitTorrent DHT by "going" from one node to another, and fetches the
+  - <code>magneticod</code> trawls the BitTorrent DHT by "going" from one node to another, and fetches the
     metadata using the nodes without using trackers.
 - High performance implementation in Go:
-  - **magneticod** utilizes every bit of your resources to discover as many infohashes & metadata as
+  - <code>magneticod</code> utilizes every bit of your resources to discover as many infohashes & metadata as
     possible.
 - Built-in lightweight web interface:
-  - **magneticow** features a lightweight web interface to help you access the database without
+  - <code>magneticow</code> features a lightweight web interface to help you access the database without
     getting on your way.
 
 ## Why?
@@ -53,14 +53,8 @@ for torrents in the network, hence removing the need for centralised torrent web
 > it & secure the installation. Feel perfectly free to send bug reports, suggestions, or whatever
 > comes to your mind to send to us through GitHub or personal e-mail.
 
-> **WARNING:**
->
-> Do NOT clone the [repository](https://github.com/ez-me/magnetico) to install **magnetico**,
-> as it is never meant to be stable (except
-> [releases](https://github.com/ez-me/magnetico/releases) of course).
-
-1. Install **magneticod** first by following its [installation instructions](cmd/magneticod/README.md).
-2. Install **magneticow** afterwards by following its
+1. Install <code>magneticod</code> first by following its [installation instructions](cmd/magneticod/README.md).
+2. Install <code>magneticow</code> afterwards by following its
    [installation instructions](cmd/magneticow/README.md).
 
 
