@@ -102,11 +102,35 @@ func (is *IndexingService) index() {
 	}
 }
 
+//New nodes taken from https://nodes.tox.chat/
 func (is *IndexingService) bootstrap() {
 	bootstrappingNodes := []string{
 		"router.bittorrent.com:6881",
 		"dht.transmissionbt.com:6881",
 		"dht.libtorrent.org:25401",
+		"tox.plastiras.org:443",
+		"tox.plastiras.org:33445",
+		"tox2.plastiras.org:33445",
+		"tox2.plastiras.org:3389",
+		"tox3.plastiras.org:33445",
+		"tox3.plastiras.org:3389",
+		"tox4.plastiras.org:33445",
+		"tox4.plastiras.org:3389",
+		"tox4.plastiras.org:443",
+		"tox.abilinski.com:33445",
+		"kusoneko.moe:33445",
+		"tox.novg.net:33445",
+		"tox01.ky0uraku.xyz:33445",
+		"tox02.ky0uraku.xyz:33445",
+		"tox2.abilinski.com:33445",
+		"tox1.mf-net.eu:33445",
+		"tox1.mf-net.eu:3389",
+		"tox2.mf-net.eu:33445",
+		"tox2.mf-net.eu:3389",
+		"ru.tox.dcntrlzd.network:3389",
+		"ru.tox.dcntrlzd.network:33445",
+		"bg.tox.dcntrlzd.network:33445",
+		"bg.tox.dcntrlzd.network:3389",
 	}
 
 	zap.L().Info("Bootstrapping as routing table is empty...")
