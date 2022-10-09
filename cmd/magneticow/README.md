@@ -1,7 +1,7 @@
 # magneticow
-*Lightweight web interface for **magneticod**.*
+*Lightweight web interface for <code>magneticod</code>.*
 
-**magneticow** is a lightweight web interface to search and to browse the torrents that its counterpart (**magneticod**)
+<code>magneticow</code> is a lightweight web interface to search and to browse the torrents that its counterpart (<code>magneticod</code>)
 discovered.
 
 See the list of [alternative front-ends](https://github.com/boramalper/magnetico/wiki/Related-Projects#alternative-front-ends)
@@ -21,8 +21,8 @@ Configuration file can be found at:
       ~/.config/magneticow/configuration.toml
 
 ### Setting Password-Protection
-If you'd like to password-protect the access to **magneticow**, you need to store the credentials
-in file
+If you'd like to password-protect the access to <code>magneticow</code>, you need to store the credentials
+in this file
 
 - **On Linux:**
 
@@ -48,19 +48,18 @@ USERNAME:$2y$12$YE01LZ8jrbQbx6c0s2hdZO71dSjn2p/O9XsYJpz.5968yCysUgiaG
 
 ### Warnings
 1. **magnetico** currently does NOT have any filtering system NOR it allows individual torrents to be removed from the
-   database, and BitTorrent DHT network is full of the materials that are considered illegal in many countries
-   (violence, pornography, copyright infringing content, and even child-pornography). If you are afraid of the legal
-   consequences, or simply morally against (indirectly) assisting those content to spread around, follow the
-   **magneticow** installation instructions carefully to password-protect the web-interface from others.
+   database, and BitTorrent DHT network is full of the materials that are considered illegal in many countries.
+   If you are afraid of the legal consequences, or simply morally against (indirectly) assisting those content to spread around,
+   follow the <code>magneticow</code> installation instructions carefully to password-protect the web-interface from others.
    
-2. **magneticow** uses HTTP Basic Authentication, meaning that your username and password will be
-   transmitted in plain-text for every request. Configuring **magneticow** to serve behind a
+2. <code>magneticow</code> uses HTTP Basic Authentication, meaning that your username and password will be
+   transmitted in plain-text for every request. Configuring <code>magneticow</code> to serve behind a
    web-server with HTTPS enabled is strongly recommended, but unfortunately not described here. You
    can use [Let's Encrypt](https://letsencrypt.org/) to get a certificate for free.
 
-3. **magneticow** is *NOT* designed to scale, and will fail miserably if you try to use it like a public torrent
+3. <code>magneticow</code> is *NOT* designed to scale, and will fail miserably if you try to use it like a public torrent
    website. This is a *deliberate* technical decision, not a bug or something to be fixed; *another* web interface with
-   more features to support such use cases and scalability *might* be developed, but **magneticow** will NEVER be the
+   more features to support such use cases and scalability *might* be developed, but <code>magneticow</code> will NEVER be the
    case.
 
 ## Usage
@@ -102,6 +101,6 @@ USERNAME:$2y$12$YE01LZ8jrbQbx6c0s2hdZO71dSjn2p/O9XsYJpz.5968yCysUgiaG
 
 ### REST-ful HTTP API
 
-**magneticow** offers a REST-ful HTTP API that is capable of everything the web interface can do. 
+<code>magneticow</code> offers a REST-ful HTTP API that is capable of everything the web interface can do. 
 
 See the [API documentation on Swaggerhub](https://app.swaggerhub.com/apis/boramalper/magneticow-api/v0.1).
