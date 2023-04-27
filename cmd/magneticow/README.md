@@ -12,6 +12,17 @@ developed by the community if you need something more advanced or different.
 You can find the latest pre-compiled static binaries on [GitHub](https://github.com/ez-me/magnetico/releases)
 for versions from v0.12.0 onwards. 
 
+### Compiling yourself
+
+If you can't run the release binaries provided by me, just follow the usual clone and make.
+Keep in mind you require [go-bindata](https://github.com/kevinburke/go-bindata).
+
+```bash
+git clone --depth=1 https://github.com/ez-me/magnetico.git
+cd magnetico
+make magneticow
+```
+
 ## Setup
 ### Configuration
 Configuration file can be found at:

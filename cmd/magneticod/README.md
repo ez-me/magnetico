@@ -18,6 +18,17 @@ fetches metadata from the peers.
 You can find the latest pre-compiled static binaries on [GitHub](https://github.com/ez-me/magnetico/releases)
 for versions from v0.12.0 onwards. 
 
+### Compiling yourself
+
+If you can't run the release binaries provided by me, just follow the usual clone and make.
+
+```bash
+git clone --depth=1 https://github.com/ez-me/magnetico.git
+cd magnetico
+make magneticod
+```
+
+
 ## Setup
 1. (Optional, **requires root**) Disable iptables for a specified port:
    

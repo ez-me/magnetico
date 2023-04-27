@@ -1,6 +1,7 @@
 # Fork Reason
 
-I wanted to have newer binaries, alongside arm (well, namely Termux). Remove Docker and CI/Travis/Unneded files for this small fork.
+I wanted to have newer binaries, alongside arm (well, namely Termux).
+Remove Docker and CI/Travis/Unneded files for this small fork.
 
 Also to learn a bit of Go (maybe).
 
@@ -51,14 +52,22 @@ for torrents in the network, hence removing the need for centralised torrent web
 > **magnetico** is still under active construction, and is considered *alpha* software. Please
 > use **magnetico** suite with care and follow the installation instructions carefully to install
 > it & secure the installation. Feel perfectly free to send bug reports, suggestions, or whatever
-> comes to your mind to send to us through GitHub or personal e-mail.
+> comes to your mind to send to us through GitHub.
 
 1. Install <code>magneticod</code> first by following its [installation instructions](cmd/magneticod/README.md).
 2. Install <code>magneticow</code> afterwards by following its
    [installation instructions](cmd/magneticow/README.md).
 
+If you can't run the release binaries provided by me, just follow the usual clone and make.
+Keep in mind you require [go-bindata](https://github.com/kevinburke/go-bindata).
 
-You should access magneticow at <http://localhost:8080>.
+```bash
+git clone --depth=1 https://github.com/ez-me/magnetico.git
+cd magnetico
+make all
+```
+
+You should be able to access magneticow at <http://localhost:8080>.
 
 ## License
 
